@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  height: 100px;
+  box-shadow: -1px 4px 5px -5px rgba(0,0,0,0.42);
+
+}
+.header_left{
+  height: 100%;
+  width: 40%;
+  float: left;
+  background-color: #ffffff;
+
+}
+.header_left img{
+  height: 80%;
+  padding-top: 10px;
+  display: inline-block;
+  float: left;
+  margin-left: 40px;
+}
+.texto{
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 8px;
+}
+.texto h2{
+  margin-bottom: 5px;
+  float: left;
+  color: red;
+}
+.texto p{
+  margin-bottom: 5px;
+  float: left;
+}
+.texto span{
+  color: red;
+  font-weight: bold;
+}
+.header_right{
+  height: 100%;
+  width: 60%;
+  float: left;
+  background-color: #ffffff;
+}
+.menu-right{
+display:inline-block;
+float: left;
+margin-left: 30px;
+text-transform: uppercase;
+}
+.menu-right a{
+  line-height: 124px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-left: 30px;
+  color: #394c5d;
+  font-size: 14px;
+  padding-left: 50px;
+}
+.menu-right a:hover{
+  /* color: black; */
+  text-shadow: 1px 1px 2px red;
+}
+.menu-items{
+  display: inline-block;
+  position: relative;
+}
+.menu-items i{
+  color: red;
+  padding-left: 5px;
+}
+.dropd-menu{
+  display: none;
+  position: absolute;
+  width: 200px;
+  background-color: #fafafa;
+  text-align: left;
+  border: 2px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dropdown-menu-item{
+  display: block;
+
+}
+.dropdown-menu-item a{
+
+}
+i {
+  padding-right: 20px;
+
+}
+.container{
+  height: 100vh;
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.slider{
+  width: 90%;
+  height: 600px;
+  margin: auto;
+  position: relative;
+
+
+
+}
+.navigation{
+height: 600px;
+width: 5%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.navigation i{
+cursor: pointer;
+
+}
+.navigation i:hover{
+color: red;
+
+}
+.slider img{
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  display: none;
+}
+.slider img.active{
+
+  display: block;
+}
+.bullett{
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  bottom: 50px;
+  left:50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+.bullett i.active{
+  color: red;
+
+}
+/* .box{
+  width: 400px;
+  height: 600px;
+  float: left;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.trio{
+
+}
+.unum{
+  width: 400px;
+  height: 600px;
+  float: left;
+  background-color: lightgrey;
+} */
